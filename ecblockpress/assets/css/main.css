@@ -1,0 +1,17 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  grid-template-rows: min-content;
+  justify-content: center;
+  align-items: center; }
+  .social__item {
+    margin: 0 1rem; }
+    .social__item i {
+      font-size: 20px;
+      color: #666666; }
+      .social__item i:hover {
+        color: #C2C2C2; }

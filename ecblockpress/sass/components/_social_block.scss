@@ -1,0 +1,20 @@
+.social{
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    grid-template-rows: min-content;
+    justify-content: center;
+    align-items: center;
+
+    &__item{
+        margin: 0 1rem; 
+
+        i{
+            font-size: 20px;
+            color: $dark-gray;
+
+            &:hover{
+                color: $light-gray;
+            }
+        }
+    }
+}
